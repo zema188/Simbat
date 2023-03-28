@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<title>Simbat</title>
+</head>
+<body>	
+	<div class="wrapper">
+		@@include("./header.html")
+		<section class="recovery container">
+			<div class="recovery__subtitle subtitle">
+				восстановление
+			</div>
+			<form class="form-recovery form">
+				<div class="form__item">
+					<div class="form__item-text">
+						E-mail
+					</div>
+					<input class="form__data form-recovery__data">
+				</div>
+				<div class="form-recovery__footer">
+					<a class="form-recovery__reg-btn" href="registration.html" >
+						Зарегистрироваться
+					</a>
+					<button class="form-recovery__action btn btn_gradient" type="submit">
+						Восстановить
+					</button>
+				</div>
+			</form>
+		</section>
+		@@include("./footer.html")
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

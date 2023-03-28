@@ -1,0 +1,343 @@
+.basket {
+  padding-top: 39px;
+  &__subtitle {
+    padding-left: 65px;
+    margin-bottom: 52px;
+    @media (max-width: 1023px) {
+      margin-bottom: 0px;
+    }
+    @media (max-width: 637px) {
+      padding-left: 0px;
+    }
+  }
+
+  &__header-list {
+    font-weight: 700;
+    display: flex;
+    padding-left: 18px;
+    gap: 10px;
+    @media (max-width: 1123px) {
+      padding-left: 0px;
+    }
+    @media (max-width: 1023px) {
+      display: none;
+    }
+  }
+
+  &__header-item {
+    color: #ec1862;
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__item-delete_mob {
+    display: none;
+    cursor: pointer;
+    @media (max-width: 1023px) {
+      display: block;
+    }
+    @media (max-width: 637px) {
+      order: 1;
+      flex: 1;
+      text-align: end;
+    }
+  }
+  &__item {
+    padding-left: 18px;
+    display: flex;
+    column-gap: 10px;
+    padding-top: 58px;
+    border-bottom: 1px solid #6d6e71;
+    padding-bottom: 52px;
+    row-gap: 20px;
+    @media (max-width: 1023px) {
+      flex-wrap: wrap;
+    }
+    @media (max-width: 1123px) {
+      padding-left: 0px;
+    }
+
+  }
+
+  &__item-preview {
+    flex: 0 0 11%;
+    @media (max-width: 1023px) {
+    }
+    @media (max-width: 637px) {
+      order: 0;
+    }
+    & img {
+      max-width: 140px;
+      object-fit: cover;
+      @media (max-width: 637px) {
+        max-width: 201px;
+      }
+    }
+  }
+
+  &__item-text {
+    flex: 0 0 40%;
+    @media (max-width: 1123px) {
+      flex: 0 0 30%;
+    }
+    @media (max-width: 1023px) {
+      flex: 1;
+    }
+    @media (max-width: 637px) {
+      flex: 0 0 100%;
+      order: 2;
+    }
+  }
+
+  &__item-codes {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    row-gap: 15px;
+    margin-bottom: 19px;
+    flex-wrap: wrap;
+  }
+
+  &__item-codes-code {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    display: flex;
+    row-gap: 4px;
+    column-gap: 4px;
+    flex-wrap: wrap;
+    & span {
+      white-space: nowrap;
+      display: block;
+    }
+  }
+
+  &__item-name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+  }
+
+  &__item-stock {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    flex: 1;
+    white-space: nowrap;
+    &.active {
+      & .basket__item-stock-pic {
+        background: url(../img/icons/check_green.png) 0 0 no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  &__item-stock-pic {
+    max-width: 20px;
+    min-width: 20px;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+    background: url(../img/icons/x_red.png) 0 0 no-repeat;
+    background-size: cover;
+  }
+  &__item-date {
+  }
+
+  &__item-info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    flex: 1;
+    row-gap: 20px;
+    justify-content: space-between;
+    @media (max-width: 1023px) {
+      flex: 0 0 100%;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 637px) {
+      order: 2;
+    }
+  }
+
+  &__item-info-lead {
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    @media (max-width: 1023px) {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 20px;
+    }
+    @media (max-width: 539px) {
+      flex: 0 0 25%;
+      align-items: flex-start;
+    }
+    @media (max-width: 430px) {
+      flex: 0 0 100%;
+      align-items: flex-start;
+    }
+    &::before {
+      display: none;
+      color: #ec1862;
+      @media (max-width: 1023px) {
+        display: block;
+      }
+    }
+
+  }
+
+  &__item-discount {
+    &::before {
+      content: "скидка";
+    }
+  }
+
+  &__item-price {
+    &::before {
+      content: "цена";
+    }
+  }
+  &__item-quantity-action{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+  &__item-quantity {
+    & img {
+      width: 22px;
+      cursor: pointer;
+    }
+    &::before {
+      content: "количество";
+    }
+  }
+
+  &__item-size {
+    &::before {
+      content: "объем";
+    }
+  }
+
+  &__item-sum {
+    &::before {
+      content: "сумма";
+    }
+  }
+
+  &__item-delete-btn {
+    cursor: pointer;
+    @media (max-width: 1023px) {
+      display: none;
+    }
+    & img {
+      width: 22px;
+    }
+  }
+
+  &__item-text-footer {
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 485px;
+    flex-wrap: wrap;
+    @media (max-width: 1123px) {
+      padding-left: 0px;
+    }
+  }
+  &__item-discount {
+    flex: 0 0 12%;
+  }
+  &__item-sctock-pic {
+  }
+  &__header-product {
+  }
+  &__header-info {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  
+  }
+}
+
+.basket {
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-top: 55px;
+    gap: 20px;
+    flex-wrap: wrap;
+    @media (max-width: 539px) {
+      padding-left: 0px;
+    }
+  }
+
+  &__footer-date {
+    & .basket__footer-lead {
+      text-align: start;
+    }
+  }
+
+  &__footer-lead {
+    color: #ec1862;
+    font-size: 14px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    gap: 10px;
+    line-height: 15px;
+    & span {
+      color: #000000;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+  }
+  &__checkout {
+    margin-top: 41px;
+    max-width: 162px;
+    margin-left: auto;
+    @media (max-width: 539px) {
+      margin-left: 0px;
+    }
+  }
+  &__footer-info {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    max-width: 482px;
+    justify-content: space-between;
+    padding-right: 20px;
+    @media (max-width: 539px) {
+      padding-right: 0px;
+      flex-wrap: wrap;
+      flex:0 0 100%;
+      padding-right: 0px;
+    }
+    & .basket__footer-lead {
+      @media (max-width: 539px) {
+        align-items: flex-start;
+        flex: 0 0 45%;
+      }
+    }
+  }
+}

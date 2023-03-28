@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<title>Simbat</title>
+</head>
+<body>	
+	<div class="wrapper">
+		@@include("./header.html")
+		<section class="error">
+			<div class="error__content container	">
+				<div class="error__subtitle subtitle">
+					страница не найдена
+				</div>
+				<div class="error__action">
+					<img src="img/icons/404.svg" alt="404">
+					<a href="index.html" class="error__action-btn btn btn_gradient">
+						На главную
+					</a>
+				</div>
+				<div class="error__footer">
+					Упс, похоже этой страницы нет 
+				</div>
+			</div>
+		</section>
+		@@include("./footer.html")
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

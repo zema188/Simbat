@@ -1,0 +1,86 @@
+.error {
+    background: url(../img/pic/404_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 48%;
+    padding-top: 39px;
+    padding-bottom: 16px;
+    position: relative;
+    @media (max-width: 1023px) {
+        background-position: 44%;
+    }
+    @media (max-width: 899px) {
+        background-position: 40%;
+    }
+    @media (max-width: 767px) {
+        background: none;
+    }
+    @media (max-width: 539px) {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    &__content {
+    }
+
+    &__subtitle {
+        padding-left: 67px;
+        margin-bottom: 27px;
+        @media (max-width: 767px) {
+            padding-left: 0px;
+        }
+    }
+
+    &__action {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        padding-left: 15px;
+        margin-bottom: 18px;
+        @media (max-width: 767px) {
+            padding-left: 0px;
+        }
+        @media (max-width: 439px) {
+            gap: 15px;
+        }
+        & img {
+            width: 100%;
+            max-width: 310px;
+            @media (max-width: 539px) {
+                max-width: 200px;
+            }
+            @media (max-width: 439px) {
+                max-width: 150px;
+            }
+        }
+    }
+
+    &__action-btn {
+        width: 100%;
+        max-width: 134px;
+        margin-top: 56px;
+        display: block;
+        flex: 1;
+    }
+
+    &__footer {
+        font-weight: 400;
+        font-size: 20px;
+        padding-left: 15px;
+        line-height: 22px;
+        @media (max-width: 767px) {
+            padding-left: 0px;
+        }
+        @media (max-width: 439px) {
+            font-size: 17px;
+        }
+    }
+}
+.container	 {
+}
+.subtitle {
+}
+.btn {
+
+    &_gradient {
+    }
+}

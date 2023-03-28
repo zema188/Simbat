@@ -1,0 +1,298 @@
+
+.card {
+    display: flex;
+    padding-top: 63px;
+    gap: 26px;
+    justify-content: space-between;
+    @media (max-width: 539px) {
+        padding-top: 30px;
+    }   
+    @media (max-width: 899px) {
+        flex-wrap: wrap;
+    }
+    &__text {
+        flex: 1;
+    }
+
+    &__name {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 34px;
+        text-transform: uppercase;
+        margin-bottom: 9px;
+    }
+    &__rating {
+        justify-content: flex-start;
+        margin-bottom: 28px;
+        & .things__slide-star {
+            width: 24px;
+            height: 23px;
+        }
+    }
+    &__info {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    &__info-subtitle {
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+
+    &__info-item {
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 27px;
+        line-height: 22px;
+    }
+
+    &__info-footer {
+        margin-top: 172px;
+    }
+
+    &__info-buy-title {
+        margin-bottom: 21px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    &__sites-list {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        @media (max-width: 539px) {
+            flex-wrap: wrap;
+        }   
+    }
+
+    &__sites-item {
+        @media (max-width: 539px) {
+            flex: 0 0 100%;
+        }   
+        display: block;
+        & img {
+            width: 100%;
+            max-width: 146px;
+        }
+    }
+}
+.card__swipers {
+    flex: 0 0 49%;
+    max-width: 49%;
+    @media (max-width: 899px) {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.card-swiper {
+    margin-bottom: 10px;
+    &__wrapper {
+        height: fit-content;
+        max-height: 640px;
+        margin-bottom: 20px;
+    }
+
+    &__slide {
+        padding: 8px 69px 10px 69px;
+        @media (max-width: 539px) {
+            padding: 8px 20px 10px 20px;
+        }
+        & .things__bar {
+            top: 10px;
+            right: 15%;
+        }
+        & .things__bar-item {
+            width: 39px;
+            height: 18px;
+        }
+        & img {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            @media (max-width: 539px) {
+                max-width: 200px;
+            }   
+        }
+    }
+    &__prev, &__next {
+        height: 32px;
+        width: 18px;
+        position: absolute;
+        top: 44%;
+        z-index: 100;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: 1s;
+        justify-content: center;
+        border-radius: 50%;
+        width: 100%;
+        max-width: 50px;
+        height: 100%;
+        max-height: 50px;
+        &:hover {
+          background: linear-gradient(to right, #ec1962, #f17540);
+          & svg {
+            & .arrow {
+              stroke: #ffffff;
+            }
+          }
+        }
+        & svg {
+          z-index: 1223;
+          width: 17px;
+          & .arrow {
+            stroke: #cbccce;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 11px;
+          }
+        }
+    }
+    &__next {
+        transform: rotate(180deg);
+        right: 0px;
+    }
+
+    &__prev {
+        left: 0px;
+    }
+}
+.card-swiper-mini {
+    max-width: 480px;
+    &__wrapper {
+    }
+
+    &__slide {
+        cursor: pointer;
+        padding: 5px;
+        border: 1px solid transparent;
+        &.swiper-slide-thumb-active {
+            border: 1px solid #eb1f6a;
+        }
+        &.swiper-slide-duplicate-active{
+            border: 1px solid transparent;
+        }
+        & img {
+            width: 100%;
+            max-width: 85px;
+        }
+    }
+}
+.things {
+
+    &__slide-rating {
+        & .things__slide-number {
+            margin-top: 4px;
+        }
+    }
+
+    &__slide-star {
+    }
+
+    &__slide-number {
+    }
+}
+.ozon {
+}
+.wb {
+}
+.letual {
+    & img {
+        max-width: 237px;
+    }
+}
+
+.card {
+    &__codes-info {
+        padding-left: 15px;
+        margin-top: 25px;
+        @media (max-width: 899px) {
+            padding-left: 0px;
+        }
+    }
+
+    &__codes-list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    &__codes-item {
+        display: block;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+        & span {
+            display: inline-block;
+        }
+    }
+}
+
+.card {
+    &__reviews {
+        padding-top: 95px;
+    }
+
+    &__reviews-title {
+        text-align: center;
+        font-size: 37px;
+        margin-bottom: 51px;
+    }
+
+    &__reviews-warning {
+        margin: 0 auto;
+        max-width: 1196px;
+    }
+
+    &__reviews-text {
+        padding: 12px 9px;
+        border: 1px solid #ec1862;
+        color: #ec1862;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        text-transform: uppercase;
+        justify-content: center;
+        @media (max-width: 899px) {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        & svg {
+            max-width: 40px;
+            fill: #ec1862;
+        }
+        & span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            &:first-child {
+                gap: 15px;
+                flex: 1;
+                @media (max-width: 630px) {
+                    flex-wrap: wrap;
+                }   
+            }
+            &:last-child {
+                flex-wrap: wrap;
+            }
+            @media (max-width: 899px) {
+                justify-content: center;
+                text-align: center;
+                flex: 0 0 100%;
+            }   
+        }
+        & a {
+            &:hover {
+                margin-top: 1px;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}
+

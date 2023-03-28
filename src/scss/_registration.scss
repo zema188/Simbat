@@ -1,0 +1,125 @@
+.registration {
+    padding-top: 38px;
+    padding-bottom: 17px;
+    &__top {
+        margin-bottom: 67px;
+    }
+
+    &__subtitle {
+        padding-left: 64px;
+        margin-bottom: 27px;
+        @media (max-width: 767px) {
+            padding-left: 0px;
+        }
+        & span {
+            margin-top: 5px;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 400;
+            display: block;
+            text-transform: none;
+        }
+    }
+
+    &__top-content {
+        padding-left: 15px;
+        @media (max-width: 570px) {
+            padding-left: 0px;
+        }
+    }
+
+    &__content-item {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        line-height: 22px;
+        font-size: 14px;
+        row-gap: 25px;
+        @media (max-width: 570px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        & img {
+            width: 100%;
+            max-width: 75px;
+        }
+    }
+}
+.subtitle {
+}
+.form-reg {
+
+    &__reg-btn {
+        max-width: 144px;
+        flex: 1;
+        padding: 7px 11px;
+    }
+}
+.form {
+    max-width: 630px;
+    margin: 0 auto;
+    padding-left: 15px;
+    @media (max-width: 570px) {
+        padding-left: 0px;
+    }
+    &__lead {
+        margin-bottom: 45px;
+    }
+    &-reg__lead-pass {
+        margin-top: 65px;
+        margin-bottom: 20px;
+    }
+    &-reg__footer {
+        display: flex;
+        justify-content: flex-end;
+        @media (max-width: 570px) {
+            justify-content: flex-start;
+        }
+    }
+    &-reg__data {
+        max-width: 319px;
+    }
+    &__subtitle {
+        font-size: 14px;
+        text-transform: uppercase;
+        line-height: 22px;
+        font-weight: 700;
+        margin-bottom: 29px;
+    }
+
+    &__item {
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 15px;
+        @media (max-width: 570px) {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &:not(:last-child) {
+            margin-bottom: 24px;
+        }
+    }
+
+    &__item-text {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-top: 8px;
+    }
+
+    &__data {
+        border: 1px solid #afafb0;
+        border-radius: 20px;
+        width: 100%;
+        padding: 13px 17px;
+        color: #58595b;
+    }
+}
+.password-control {
+    font-weight: 700;
+}

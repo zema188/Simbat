@@ -1,0 +1,96 @@
+
+.login {
+    padding-bottom: 14px;
+    padding-top: 38px;
+    &__subtitle {
+        padding-left: 65px;
+        margin-bottom: 54px;
+        @media (max-width: 767px) {
+            padding-left: 0px;
+        }
+    }
+}
+.form-login {
+
+    &__data {
+        max-width: 317px;
+    }
+
+    &__forgot-btn {
+        display: block;
+        color: #58595b;
+        font-size: 14px;
+        line-height: 22px;
+        transition: .2s;
+        text-align: end;
+        text-decoration: underline transparent;
+        margin-bottom: 9px;
+        @media (max-width: 570px) {
+            text-align: start;
+            margin-bottom: 16px;
+        }
+        &:hover {
+            text-decoration: underline #58595b;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    &__reg-btn {
+        display: block;
+        color: #58595b;
+        font-size: 14px;
+        line-height: 22px;
+        transition: .2s;
+        text-decoration: underline transparent;
+        &:hover {
+            text-decoration: underline #58595b;
+        }
+    }
+
+    &__remember {
+        color: #58595b;
+        font-size: 14px;
+        line-height: 22px;
+        & .custom-input {
+            border: 1px solid #6d6e71;
+            min-width: 26px;
+            min-height: 24px;
+            max-width: 26px;
+            max-height: 24px;
+            &::before {
+                width: 19px;
+            }
+        }
+    }
+
+    &__remember-text {
+    }
+
+    &__action {
+        display: block;
+        width: 100%;
+        margin-top: 22px;
+        max-width: 80px;
+        margin-left: auto;
+        @media (max-width: 570px) {
+            margin-left: 0px;
+        }
+    }
+}
+.form {
+
+    &__item {
+    }
+
+    &__item-text {
+    }
+
+    &__data {
+    }
+}

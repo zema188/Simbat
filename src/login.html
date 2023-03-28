@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<title>Simbat</title>
+</head>
+<body>	
+	<div class="wrapper">
+		@@include("./header.html")
+		<section class="login container">
+			<div class="login__subtitle subtitle">
+				вход
+			</div>
+			<form class="form-login form">
+				<div class="form__item">
+					<div class="form__item-text">
+						E-mail
+					</div>
+					<input class="form__data form-login__data">
+				</div>
+				<div class="form__item">
+					<div class="form__item-text">
+						Пароль
+					</div>
+					<input class="form__data form-login__data password-control" type="password">
+				</div>
+				<a class="form-login__forgot-btn" href="#">
+					Забыли пароль?
+				</a>
+				<div class="form-login__footer">
+					<a class="form-login__reg-btn" href="registration.html" >
+						Зарегистрироваться
+					</a>
+                    <label class="form-login__remember custom-checkbox">
+                        <input type="checkbox" name="remember" checked>
+                        <span class="custom-input"></span>
+                        <div class="form-login__remember-text">
+							Запомнить меня на этом компьютере
+                        </div>
+                    </label>
+				</div>
+				<button class="form-login__action btn btn_gradient" type="submit">
+					Вход
+				</button>
+			</form>
+		</section>
+		@@include("./footer.html")
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

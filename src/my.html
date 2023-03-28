@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<title>Simbat</title>
+</head>
+<body>	
+	<div class="wrapper">
+		@@include("./header_authorized.html")
+		<section class="orders container">
+			<div class="orders__subtitle subtitle">
+				Мои заказы
+			</div>
+			<div class="orders__content">
+				<div class="orders__header">
+					<div class="orders__header-info">
+						<div class="orders__header-item orders__header-number">
+							Номер
+						</div>
+						<div class="orders__header-item  orders__header-date">
+							Дата
+						</div>
+						<div class="orders__header-item  orders__header-quanity">
+							Товаров (шт.)
+						</div>
+						<div class="orders__header-item  orders__header-sum">
+							Сумма заказа (Р.)
+						</div>
+						<div class="orders__header-item orders__header-status">
+							Статус
+						</div>
+					</div>
+					<div class="orders__header-item  orders__header-return">
+						Повторить
+					</div>
+				</div>
+				<div class="orders__item">
+					<div class="orders__item-info">
+						<div class="orders__item-lead orders__item-number">
+							<span>
+							174019
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-date">
+							<span>
+							12.10.2022
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-quantity">
+							<span>
+							1000
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-sum">
+							<span>
+							100 922.40
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-status">
+							<span>
+							подтверждён
+							</span>
+						</div>
+					</div>
+					<div class="orders__item-lead orders__return">
+						<img src="img/icons/return.png" alt="return">
+					</div>
+				</div>
+				<div class="orders__item">
+					<div class="orders__item-info">
+						<div class="orders__item-lead orders__item-number">
+							<span>
+							174019
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-date">
+							<span>
+							12.10.2022
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-quantity">
+							<span>
+							1000
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-sum">
+							<span>
+							100 922.40
+							</span>
+						</div>
+						<div class="orders__item-lead orders__item-status">
+							<span>
+							Ожидается подтверждение менеджером
+							</span>
+						</div>
+					</div>
+					<div class="orders__item-lead orders__return">
+						<img src="img/icons/return.png" alt="return">
+					</div>
+				</div>
+			</div>
+		</section>
+		@@include("./footer.html")
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>

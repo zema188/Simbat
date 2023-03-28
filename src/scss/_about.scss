@@ -1,0 +1,35 @@
+.about {
+    max-width: 1180px;
+    padding-top: 68px;
+    @media (max-width: 539px) {
+        padding-top: 30px;
+    }
+    &__content {
+    }
+
+    &__lead {
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin-bottom: 21px;
+        @media (max-width: 539px) {
+            font-size: 10px;
+            line-height: 14px;
+        }
+        & p {
+            &:not(:not(:nth-child(1))) {
+                margin-bottom: 20px;
+            }
+        }
+        & ul {
+            padding: 20px 36px 0px;
+            @media (max-width: 539px) {
+                padding: 10px 20px 0px;
+            }
+        }
+    }
+
+    &__lead-subtitle {
+    }
+}

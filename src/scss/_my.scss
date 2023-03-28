@@ -1,0 +1,163 @@
+.orders {
+    padding-top: 39px;
+    &__subtitle {
+        padding-left: 65px;
+        margin-bottom: 51px;
+    }
+
+    &__content {
+    }
+}
+.orders {
+
+    &__subtitle {
+    }
+
+    &__content {
+    }
+
+    &__header {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 22px;
+        justify-content: space-between;
+        padding: 0px 55px 0px 30px;
+        @media (max-width: 1023px) {
+            display: none;
+        }
+    }
+
+    &__header-item {
+        color: #ec1862;
+        font-size: 15px;
+        line-height: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        white-space: nowrap;
+        font-weight: 700;
+    }
+
+    &__header-number {
+        margin-right: 20px;
+    }
+
+    &__header-status {
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        border: 1px solid #6e6f71;
+        padding: 23px 55px 23px 30px;
+        @media (max-width: 1023px) {
+            flex-wrap: wrap;
+            padding: 23px 23px 23px 30px;
+        }
+        &:not(:last-child) {
+            margin-bottom: 14px;
+        }
+    }
+
+    &__item-lead {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000000;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        flex: 0 0 9%;
+        @media (max-width: 1023px) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &::before {
+            display: none;
+            color: #ec1862;
+            white-space: nowrap;
+            @media (max-width: 1023px) {
+              display: block;
+            }
+        }
+    }
+    &__item-info {
+        gap: 10px;
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        @media (max-width: 1023px) {
+            gap: 20px;
+        }
+        & .orders__item-lead {
+            @media (max-width: 539px) {
+                flex: 0 0 100%;
+            }
+        }
+    }
+    &__header-info {
+        display: flex;
+        gap: 10px;
+        flex: 1;
+    }
+    &__item-number {
+        text-align: start;
+        flex: 0;
+        margin-right: 20px;
+        height: fit-content;
+        & span {
+            border-bottom: 1px solid #000000;
+        }
+        &::before {
+            content: "номер";
+        }
+    }
+    &__header-number {
+        text-align: start;
+    }
+    &__item-date {
+
+        &::before {
+            content: "дата";
+        }
+    }
+    &__header-status {
+        text-align: start;
+
+    }
+    &__item-quantity {
+        flex: 0 0 13%;
+        &::before {
+            content: "количество";
+        }
+    }
+
+    &__item-sum {
+        flex: 0 0 29%;
+        &::before {
+            content: "сумма заказа (Р.)";
+        }
+    }
+
+    &__item-status {
+        flex: 1;
+        text-align: start;
+        @media (max-width: 1023px) {
+            align-items: flex-start;
+        }
+        &::before {
+            content: "статус";
+        }
+    }
+
+    &__return {
+        flex: 0 0 10%;
+        @media (max-width: 1023px) {
+            align-items: flex-end;
+        }
+        & img {
+            max-width: 22px;
+            min-width: 22px;
+        }
+    }
+}

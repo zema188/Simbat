@@ -1,0 +1,41 @@
+.recovery {
+    padding-bottom: 14px;
+    padding-top: 39px;
+    &__subtitle {
+        padding-left: 65px;
+        margin-bottom: 55px;
+        @media (max-width: 769px) {
+            padding-left: 0px;
+        }
+    }
+}
+.container {
+}
+.subtitle {
+
+}
+.form-recovery {
+
+    &__data {
+        max-width: 318px;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    &__action {
+    }
+    &__reg-btn {
+        display: block;
+        text-decoration: underline transparent;
+        transition: .2s;
+        &:hover {
+            text-decoration: underline #58595b;
+        }
+    }
+}
+

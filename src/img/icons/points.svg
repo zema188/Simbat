@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1511.4 55.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-17);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-15);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-18);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-28);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-14);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-20);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-16);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-21);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-25);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-24);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-22);
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-27);
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient-23);
+      }
+
+      .cls-23 {
+        fill: url(#linear-gradient-19);
+      }
+
+      .cls-24 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-25 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-26 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-27 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-28 {
+        fill: url(#linear-gradient-26);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="27.7" x2="55.4" y2="27.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec1862"/>
+      <stop offset="1" stop-color="#f1773f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="112" x2="167.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="224" x2="279.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="336" x2="391.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="448" x2="503.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="560" x2="615.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="672" x2="727.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="784" x2="839.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="896" x2="951.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="1008" x2="1063.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="1120" x2="1175.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="1232" x2="1287.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="1344" x2="1399.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-14" x1="1456" x2="1511.4" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-15" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-16" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-17" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-18" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-19" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-20" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-21" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-22" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-23" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-24" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-25" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-26" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-27" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-28" y1="27.7" x2="1511.4" y2="27.7" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <g>
+        <circle class="cls-20" cx="27.7" cy="27.7" r="27.7"/>
+        <circle class="cls-1" cx="139.7" cy="27.7" r="27.7"/>
+        <circle class="cls-19" cx="251.7" cy="27.7" r="27.7"/>
+        <circle class="cls-24" cx="363.7" cy="27.7" r="27.7"/>
+        <circle class="cls-14" cx="475.7" cy="27.7" r="27.7"/>
+        <circle class="cls-8" cx="587.7" cy="27.7" r="27.7"/>
+        <circle class="cls-15" cx="699.7" cy="27.7" r="27.7"/>
+        <circle class="cls-25" cx="811.7" cy="27.7" r="27.7"/>
+        <circle class="cls-17" cx="923.7" cy="27.7" r="27.7"/>
+        <circle class="cls-10" cx="1035.7" cy="27.7" r="27.7"/>
+        <circle class="cls-9" cx="1147.7" cy="27.7" r="27.7"/>
+        <circle class="cls-26" cx="1259.7" cy="27.7" r="27.7"/>
+        <circle class="cls-27" cx="1371.7" cy="27.7" r="27.7"/>
+        <circle class="cls-6" cx="1483.7" cy="27.7" r="27.7"/>
+      </g>
+      <g>
+        <circle class="cls-3" cx="27.7" cy="27.7" r="27.7"/>
+        <circle class="cls-11" cx="139.7" cy="27.7" r="27.7"/>
+        <circle class="cls-2" cx="251.7" cy="27.7" r="27.7"/>
+        <circle class="cls-4" cx="363.7" cy="27.7" r="27.7"/>
+        <circle class="cls-23" cx="475.7" cy="27.7" r="27.7"/>
+        <circle class="cls-7" cx="587.7" cy="27.7" r="27.7"/>
+        <circle class="cls-12" cx="699.7" cy="27.7" r="27.7"/>
+        <circle class="cls-18" cx="811.7" cy="27.7" r="27.7"/>
+        <circle class="cls-22" cx="923.7" cy="27.7" r="27.7"/>
+        <circle class="cls-16" cx="1035.7" cy="27.7" r="27.7"/>
+        <circle class="cls-13" cx="1147.7" cy="27.7" r="27.7"/>
+        <circle class="cls-28" cx="1259.7" cy="27.7" r="27.7"/>
+        <circle class="cls-21" cx="1371.7" cy="27.7" r="27.7"/>
+        <circle class="cls-5" cx="1483.7" cy="27.7" r="27.7"/>
+      </g>
+    </g>
+  </g>
+</svg>

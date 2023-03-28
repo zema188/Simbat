@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" type="text/css" href="files/fonts/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<title>Simbat</title>
+</head>
+<body>	
+	<div class="wrapper">
+		@@include("./header.html")
+		<section class="registration container">
+			<div class="registration__top">
+				<div class="registration__subtitle subtitle">
+					регистрация
+					<span>
+						После отправки данных с вами свяжется менеджер для их подтверждения.
+					</span>
+				</div>
+				<div class="registration__top-content">
+					<div class="registration__content-item">
+						<img src="img/icons/exclamation-mark.svg" alt="exclamation-mark">
+						Наша Компания осуществляет только оптовую продажу игрушек. Мы сотрудничаем только с юридическими лицами и индивидуальными предпринимателями на основании договоров поставки.
+					</div>
+					<div class="registration__content-item">
+						<img src="img/icons/snowflake.svg" alt="snowflake">
+						- поля обязательны к заполнению.
+					</div>
+				</div>
+			</div>
+			<form class="form-reg form">
+				<div class="form__lead">
+					<div class="form__subtitle">
+						Личные данные
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Контактное лицо (ФИО) *
+						</div>
+						<input class="form__data form-reg__data">
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							E-mail *
+						</div>
+						<input class="form__data form-reg__data">
+					</div>
+				</div>
+				<div class="form__lead">
+					<div class="form__subtitle">
+						Данные организации
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Полное название *
+						</div>
+						<input class="form__data form-reg__data">
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Основной телефон
+						</div>
+						<input class="form__data form-reg__data">
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Страна *
+						</div>
+						<input class="form__data form-reg__data" placeholder="Россия">
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Федеральный округ *
+						</div>
+						<input class="form__data form-reg__data">
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Город *
+						</div>
+						<input class="form__data form-reg__data">
+					</div>
+				</div>
+				<div class="form__lead form-reg__lead-pass">
+					<div class="form__item">
+						<div class="form__item-text">
+							Пароль
+						</div>
+						<input class="form__data form-reg__data password-control" type="password">
+					</div>
+					<div class="form__item">
+						<div class="form__item-text">
+							Повторите пароль
+						</div>
+						<input class="form__data form-reg__data password-control" type="password">
+					</div>
+				</div>
+				<div class="form-reg__footer">
+					<button type="submit" href="#" class="form-reg__reg-btn btn btn_gradient">
+						Регистрация
+					</button>
+				</div>
+			</form>
+		</section>
+		@@include("./footer.html")
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+</body>
+</html>
